@@ -6,7 +6,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.recyclemotos.R
 import com.example.recyclemotos.SuperMotos
 
-class SuperMotosAdapter (private val supermotosList:List<SuperMotos>) : RecyclerView.Adapter<SuperMotosViewHolder>(){
+class SuperMotosAdapter (private val supermotosList:List<SuperMotos>) :
+    RecyclerView.Adapter<SuperMotosViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SuperMotosViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
